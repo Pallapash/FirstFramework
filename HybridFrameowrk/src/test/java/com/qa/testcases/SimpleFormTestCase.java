@@ -37,9 +37,9 @@ public class SimpleFormTestCase extends BaseClass {
 	@Test(priority = 2)
 	public void VerifyMsg() throws InterruptedException {
 		Thread.sleep(10);
-		simpleform.enterMessage("ABC");
+		simpleform.enterMessage("Hello World");
 		simpleform.clickShowMsgBtn();
-		AssertJUnit.assertEquals(simpleform.getUserMsg(), "ABC");
+		AssertJUnit.assertEquals(simpleform.getUserMsg(), "Hello World");
 	}
 
 	@AfterMethod
