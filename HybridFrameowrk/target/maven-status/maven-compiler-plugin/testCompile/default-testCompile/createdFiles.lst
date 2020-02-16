@@ -1,0 +1,7 @@
+com\qa\utilities\AppConfigurataions.class
+com\qa\testcases\DemoTest.class
+com\qa\testcases\SimpleFormTestCase.class
+com\qa\utilities\TestListener.class
+com\qa\pages\SimpleFormPage.class
+com\qa\utilities\TestData.class
+com\qa\basepkg\BaseClass.class
